@@ -48,7 +48,7 @@ Here is a short property list (and their params):
 function getGames(string) //Gets games based upon the name (string) utilizes the GetGame of the API
 function getGamesList(string) //Gets games based upon the name (string) utilizes the GetGamesList of the API
 function getGame(int) //Gets a single game based upon the ID (int) of the game utilizes the GetGame of the API with the param of ID.
-function function getBoxArt(int) //Gets a single game's boxart based upon the ID (int) utilizes the GetArt of the API.
+function getBoxArt(int) //Gets a single game's boxart based upon the ID (int) utilizes the GetArt of the API.
 ```
 
 AS ALWAYS!! - CACHE YOUR DATA!!
