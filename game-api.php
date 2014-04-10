@@ -3,10 +3,8 @@
  * Plugin Name: TheGamesDB Api Wrapper
  * Plugin URI: http://game-play.dk
  * Description: API Wrapper for TheGamesDB. Used to extract data.
- * Version: 0.0.1
+ * Version: 1.0.0
  * Author: Lucas Dechow
- * Author URI: http://dechowmedia.com/plugins
- * License: None
  */
 
 class gameDB{
