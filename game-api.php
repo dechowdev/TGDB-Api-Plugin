@@ -89,6 +89,20 @@ class gameDB{
         return gameDB::convertXMLArray($body);
     }
 
+    public function getPlatform($id){
+      $call = wp_remote_get($this->apiUrl . 'GetPlatform.php?id=' . $id);
+      $body = wp_remote_retrieve_body($call);
+
+      return gameDB::convertXMLArray($body);
+    }
+
+    public function getPlatformsList(){
+        $call = wp_remote_get($this->apiUrl . 'GetPlatformsList.php');
+        $body = wp_remote_retrieve_body($call);
+
+        return gameDB::convertXMLArray($body);
+    }
+
 }
 /**
  * Example function to get games based on the title.
